@@ -4,7 +4,7 @@
 # первое в лексикографическом порядке
 
 text = input().lower().split()
-
+x = 0
 
 def solution(some_text) -> str:
     d = {el: some_text.count(el) for el in some_text}
@@ -13,3 +13,4 @@ def solution(some_text) -> str:
 
 if __name__ == '__main__':
     print(solution(text))
+
